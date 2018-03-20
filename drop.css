@@ -1,0 +1,45 @@
+
+           @media only screen and (max-width:768px) {
+        /* CSS applied only on 375px and down */
+        .tracklist{
+         
+           color: #ff0000;
+       }
+        }
+
+        @font-face	{
+    		font-family: Noodle;
+   		    src: url(big_noodle_titling.ttf);
+        }
+
+       .tracklist{
+           font-family: Noodle;
+           margin-top: 50px;
+         
+       }
+
+        .nav-item a {
+            position: relative;
+        }
+    
+        .nav-item a:after {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 5;
+            bottom: 5px;
+            width: 77.5%;
+            height: 2px;
+            background-color: #ffffff;
+            transform: scaleX(0);
+            transform-origin: center left;
+            transition: .45s;
+        }
+    
+        .nav-item a:hover:after {
+            transform: scaleX(1);
+        }
+
+        .jumbotron {
+            background-color: #ffa800;
+        }
