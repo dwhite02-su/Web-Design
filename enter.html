@@ -11,7 +11,7 @@
 
     <!-- <link rel="stylesheet" href="styles.css" /> -->
     <style>
-         @font-face	{
+        @font-face	{
     		font-family: Kenzo;
    		    src: url(Kenzo Regular.otf);
         }
@@ -32,6 +32,14 @@
 		100% {opacity: 1;}
 	}
 
+    @media only screen and (max-width:382px) {
+        /* CSS applied only on 375px and down */
+        .enter {
+            margin-top: 550px;
+            font-family: Kenzo;
+            animation:fadeIn 2s linear 0s 1;
+        }
+        }
 	
     </style>
 </head>
